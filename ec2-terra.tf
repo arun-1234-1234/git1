@@ -1,8 +1,3 @@
-provider "aws" {
-  region     = "us-east-1"
-  access_key = "AKIA6OY4UMVQP6IVLYXS"
-  secret_key = "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"
-}
 terraform {
   required_providers {
     aws = {
@@ -26,3 +21,4 @@ resource "aws_instance" "git-jenkin" {
     Name = "git-jenkin"
    } 
 }
+
